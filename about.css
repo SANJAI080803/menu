@@ -1,0 +1,124 @@
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1,h2 {
+            color:black;
+        }
+        .profile-img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+        p {
+            line-height: 1.6;
+            color:gold;
+        }
+        .skills {
+            margin-top: 20px;
+            color: gold;        
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            
+        }
+        .skills li {
+            margin-bottom: 5px;
+        }
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        body{
+        width:100%;
+        background-image:url("bg.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        }
+        
+        .curricular li,h3{
+            font-size:30px;
+            margin-top: 20px;
+            color: gold ;
+        }
+        .extra li,h3{
+            font-size:30px;
+            margin-top: 20px;
+            color: gold ;
+        }
+        
+        nav{
+        width: 100%;
+        height: 60px;
+        line-height:75px;
+        padding:0px 120px;
+        }
+        nav h1{
+        font-size: 35px;
+        color:gold;
+        text-transform: uppercase;
+        float: left;
+        }
+        .tab{
+            margin-top: 60px;
+        }
+        th,td{
+            color:gold;
+        }
+        .mark h1{
+        margin-top: 80px;
+        }
+        
+        nav ul
+        {
+        float:right;
+        margin-left: 50px   ;
+        }
+        nav ul li
+        {
+        float:left;
+        list-style:none;
+        position:relative;
+        }
+        nav ul li a{
+        text-decoration: none;
+        font-style: italic;
+        color:gold;
+        font-size: 25px;
+        padding: 0px 20px;
+        display:block;
+        }
+        nav ul li ul
+        {
+        position:absolute;
+        display: none;
+        background-color:blue;
+        border-radius: 0px 0px 5px 5px;
+        }
+        nav ul li ul li a{
+        padding: 10px 15px;
+        }
+        nav ul li ul li a:hover
+        {
+        background-color:blue;
+        border-radius: 20px;
+        
+        }
+        nav ul li a:hover
+        {
+        background-color: blue;
+        border-radius: 15px;
+        }
+        nav ul li:hover ul
+        {border-radius: 5px;
+        display:block;
+        }
